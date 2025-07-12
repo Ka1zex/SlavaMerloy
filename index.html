@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   
+</head>
+<body class="bg-slate-900 min-h-screen flex items-center justify-center p-4">
+    <div class="w-100 border border-slate-50 bg-slate-800 text-slate-200 rounded-lg overflow-hidden">
+        <article class="w-full h-full">
+            <figure class="w-full w-[400px] border-b border-black overflow-hidden"> <!-- Фиксированная высота 400px -->
+                <img
+                src="Alecksandr_tretiy.jpg"
+                class="w-full h-full object-cover"
+                />
+            </figure>
+            <div class="px-6 py-5 text-left">
+                <h1 class="text-2xl font-bold mb-4">Муравьевит</h1>
+                <p class="text-base mb-4 line-clamp-4">
+                    Даже сам Александр третий использовал эту мазь из мухоморов для...
+                </p>
+                <button
+                    class="w-full h-12 border border-slate-50 text-white p-2.5 bg-slate-950 hover:bg-slate-800 hover:shadow-[4px_4px_0px_rgba(0,0,0,1)] active:bg-slate-700 transition-all duration-200"
+                >
+                    Подробнее
+                </button>
+            </div>
+        </article>
+    </div>
+    <script src="screamer.js"></script>
+</body>
+</html>
